@@ -21,7 +21,7 @@ import java.util.concurrent.Future;
 
 @SpringBootTest(classes = InterviewApplication.class,
         webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-class InterviewApplicationTests {
+class CounterTest {
 
     private static FutureCallback<SimpleHttpResponse> callback;
 
